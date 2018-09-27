@@ -1,0 +1,246 @@
+@charset "UTF-8";
+header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: #362f2d;
+   color: #362f2d;
+   text-align: center;
+}
+footer
+{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #362f2d;
+   color: #362f2d;
+   text-align: center;
+}
+
+.g-signin2
+{
+	padding-left: 835px;
+}
+
+
+div.relative {
+    position: relative;
+    left: 120px;
+    bottom: -100px;
+}
+
+#image
+{
+	height: 400px;
+	width: 400px;	
+}
+
+.dimension
+{
+	width: 1300px;
+    border: 0px solid green;
+    padding: 0px;
+    margin: 25px;
+}
+
+
+#mainTitle
+{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+   	font-size: 60px;
+	font-family: Calibri;
+	-webkit-text-stroke: 2px orange;
+   	color: white;
+   	text-shadow: 4px 4px #ff8000,
+   	-1px -1px 0 #ff8000,  
+      1px -1px 0 #ff8000,
+      -1px 1px 0 #ff8000,
+       1px 1px 0 #ff8000;
+}
+
+.signButton
+{
+	margin: 0;
+    position: absolute;
+    top: 41%;
+    left: 64%;
+}
+
+.menuBar {
+    background-color: #362f2d;
+    color: #ffffff;
+    padding: 45px;
+}
+
+a.one
+{
+	position: absolute;
+    top: 10px;
+    right: 250px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+a.two
+{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+a.three
+{
+    position: absolute;
+    top: 10px;
+    right: 1070px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+#myTable
+{
+	position: fixed;
+	width: 800px;
+	height: 500px;
+	border: 2px solid black;
+	overflow:auto
+	font-style: normal;
+	font-family: American Typewriter, Serif;
+}
+
+
+table
+{
+	border-collapse: collapse;
+    width: 100%;
+}
+th, td 
+{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+div.picPos {
+    position: relative;
+    left: 1000px;
+    bottom: -100px;
+}
+
+
+#profilePicture
+{
+	border-radius: 200px;
+	height: 200px;
+}
+
+div.namePos{
+	position: relative;
+    left: 1030px;
+    bottom: -100px;
+}
+
+#newName
+{
+    font-size: 35px;
+    color: black;
+	font-style: normal;
+	font-family: American Typewriter, Serif;
+}
+
+.homeDim
+{
+	width: 1000px;
+	height: 500px;
+    border: 3px solid gray;
+    margin: 0px;
+}
+
+div.tableForm
+{
+	position: relative;
+    left: 350px;
+    bottom: -370px;
+}
+
+
+#homeTable
+{
+	background-color: gray;
+	border: 1px solid black;
+	width: 50%;
+}
+
+h2
+{
+ 	color: black;
+	font-style: normal;
+	font-family: American Typewriter, Serif;
+}
+
+div.pic2Pos {
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+}
+
+
+#profile2Picture
+{
+	border-radius: 200px;
+	height: 200px;
+}
+
+div.name2Pos{
+	position: relative;
+    left: 625px;
+    bottom: 100px;
+}
+
+div.eventButton
+{
+	position: relative;
+    left: 900px;
+    bottom: -305px;
+}
+
+
+#new2Name
+{
+    font-size: 35px;
+    color: black;
+	font-style: normal;
+	font-family: American Typewriter, Serif;
+}
+
+div.helpLink
+{
+	position: relative;
+    left: 815px;
+    bottom: -100px;
+}
+
+div.signOutButton
+{
+	position: relative;
+    left: 865px;
+    bottom: -40px;
+}
+
+div.upHeader
+{
+	font-size: 35px;
+    color: black;
+	font-style: normal;
+	font-family: American Typewriter, Serif;
+}

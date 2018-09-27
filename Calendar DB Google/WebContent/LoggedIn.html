@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Sycamore Calendar</title>
+		<link rel="stylesheet" type="text/css" href="SignIn.css" />
+	</head>
+	<body>
+	
+<header>
+<h3>Garbage</h3>
+</header>
+
+	<div class="dimension">
+		<div id="mainTitle"> 
+		<p> Sycamore Calendar </p>
+		</div>
+	
+	<p><a class="one" href="Profile.html" target="_blank">Profile</a></p>
+	<p><a class="two" href="Home.jsp" target="_blank">Home</a></p>
+<!-- 	<p><b><a class="three" href="SignIn.html" target="_blank">Sycamore Calendar</a></b></p>
+ -->	
+	<div class="relative">
+		<img id="image" src="https://piazza.com/redirect/s3?bucket=uploads&prefix=attach%2Fjl4eo81c7fx3ds%2Fixuqx1r9wjc4gz%2Fjm021h9mhka4%2Fleaf.png">
+	</div>			
+	
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="588353021292-h4thc8e7js8ohl2jbi3oniqco2uibffi.apps.googleusercontent.com">
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	
+	<div class="signOutButton">
+		<a href="SignIn.html" onclick="signOut();">Sign out</a>
+	</div>	
+	<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+	</div> 
+	
+<footer>
+	<h3>Cities</h3>
+</footer>
+	
+	
+	<!-- FANCY GOOGLE BUTTON -->
+	<!-- FANCY GOOGLE BUTTON -->
+	<!-- FANCY GOOGLE BUTTON -->
+	<!-- FANCY GOOGLE BUTTON -->
+	<script>
+	function onSignIn(googleUser) {
+		  var profile = googleUser.getBasicProfile();
+		  sessionStorage.setItem("Name", profile.getName());
+		  sessionStorage.setItem("profileImage", profile.getImageUrl());
+		}
+	</script>
+	<!-- FANCY GOOGLE BUTTON -->
+	<!-- FANCY GOOGLE BUTTON -->
+	<!-- FANCY GOOGLE BUTTON -->
+	<!-- FANCY GOOGLE BUTTON -->
+	
+	</body>
+</html>
